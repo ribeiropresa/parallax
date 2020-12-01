@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body, html {
+			margin: 0;
+			font: 16px "lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+		.content {
+			color: #777;
+			background-color: white;
+			text-align: center;
+			padding: 50px 80px;
+		}
+		h3 {
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		/*PARALLAX effect*/
+		.box1, .box2, .box3, .box4, .box5, .box6 {
+			position: relative;
+			height: 100%;
+			opacity: 0.9;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+		.box1 {
+			background-image: url(images/image1.jpg);  
+		}
+		.box2 {
+			background-image: url(images/image2.jpg);	
+		}
+		.box3 {
+			background-image: url(images/image3.jpg);	
+		}
+		.box4 {
+			background-image: url(images/image4.jpg);	
+		}
+		.box5 {
+			background-image: url(images/image5.jpg);	
+		}
+		.box6 {
+			background-image: url(images/image6.jpg);	
+		}
+		.title-content {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+		.title-content span.title {
+			opacity: 0.5;
+			color: #fff;
+			background-color: #111;
+			padding: 20px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<div class='box1'>
+		<div class='title-content'>
+			<span class='title'>Hot Air Ballon Ride</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Donec vitae fermentum massa. Suspendisse vitae elit in mi imperdiet lobortis sit amet eu ipsum. Curabitur rhoncus elit in sapien convallis facilisis. Sed interdum porttitor eros. Etiam dignissim orci nisi, et pretium tortor porttitor vel. Suspendisse sed luctus purus, iaculis bibendum sem. Curabitur viverra, odio nec placerat gravida, mi leo gravida ipsum, vitae feugiat sapien massa venenatis neque. Suspendisse vel dui eleifend, pharetra purus et, consectetur ex. Mauris feugiat libero aliquam sagittis commodo. Quisque ut augue iaculis, posuere mauris ac, ultricies erat. Quisque eu imperdiet velit, non maximus ligula. Fusce ac condimentum ex. Pellentesque nec sem sodales, molestie augue auctor, iaculis nisi. Nam vehicula risus id dui eleifend, quis maximus nisi imperdiet.</p>
+		<p>Cras non quam facilisis, vulputate massa vitae, dapibus leo. Curabitur dapibus nulla a odio efficitur consectetur. Etiam ligula velit, suscipit id pellentesque eu, accumsan at massa. Phasellus enim neque, tincidunt nec luctus in, bibendum gravida ante. Nunc ac neque vitae purus malesuada pulvinar et eu nunc. Donec mollis vel massa at rhoncus. Nulla vitae sem sodales, malesuada purus et, ultricies sapien. Fusce lobortis dui a purus suscipit consectetur. Fusce lacus felis, eleifend id turpis eget, feugiat ultricies diam. Vivamus ipsum lectus, rhoncus vitae justo quis, lacinia tincidunt risus. Nullam diam purus, convallis vel erat sit amet, elementum semper tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed feugiat quam nisi, vitae interdum ligula faucibus eget.</p>
+	</div>
+	<div class='box2'>
+		<div class='title-content'>
+			<span class='title'>On the Road</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Vestibulum molestie leo ac egestas tempor. Donec aliquet orci mi, a mattis nunc tincidunt sit amet. Cras convallis bibendum massa sed gravida. In nulla nibh, dictum non elementum in, blandit tincidunt ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce quis nibh egestas, condimentum est ac, aliquet magna. Praesent accumsan porttitor ex, quis accumsan enim. Sed ultricies non ipsum sit amet iaculis. Integer interdum dictum massa nec vehicula. Morbi eget luctus nisl, nec ultrices felis. Suspendisse eu lacus eu enim blandit laoreet vel non felis. Ut scelerisque a diam a lobortis. Nam nec tortor ut mauris auctor euismod. Nam mattis volutpat felis, vel facilisis libero fringilla ut. Proin iaculis tortor lectus, quis luctus augue viverra sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p>Pellentesque eleifend metus sed euismod ornare. Aenean congue diam quam, eget imperdiet tellus dapibus id. Integer pellentesque odio orci, ac aliquet neque luctus faucibus. Sed tristique mi sapien, id placerat sem commodo eu. Mauris tempus nulla eros, in tincidunt ante ultrices non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin mattis lorem et justo fringilla, eget viverra sem dictum. Suspendisse potenti. Integer ut tincidunt ante, sed lobortis tellus. Sed id nisi eros. Etiam blandit in quam sed feugiat. Mauris vehicula augue vitae malesuada ullamcorper. Donec cursus urna ultricies ultrices commodo. Duis nulla neque, laoreet in sem sed, accumsan tincidunt tellus.</p>
+	</div>
+	<div class='box3'>
+		<div class='title-content'>
+			<span class='title'>Sunset</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Proin eu condimentum risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc non suscipit velit. Nullam vulputate, justo ac efficitur scelerisque, quam quam porttitor ante, sit amet venenatis neque enim vitae felis. Nulla a sapien tincidunt, dignissim dui et, tincidunt nisi. Proin vitae est aliquam, pellentesque urna ut, interdum velit. Suspendisse consequat ligula dui, eu ultricies magna varius eu. Aenean et mauris non tellus tincidunt ornare. Nam dignissim vitae massa sed sollicitudin. Quisque pretium mauris non dui viverra porta. Curabitur sed diam a metus ullamcorper vulputate scelerisque sit amet mi. Donec non metus id risus bibendum blandit in vitae ante. Sed a massa eu mi bibendum molestie sit amet eget odio.</p>
+		<p>Donec tincidunt sapien quis enim malesuada maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent vestibulum sollicitudin metus. Quisque leo enim, porta nec malesuada sodales, mattis vitae libero. Maecenas tellus nunc, tincidunt ut mattis vulputate, accumsan eu purus. Praesent maximus mi a ullamcorper pulvinar. Duis pulvinar nisi ac quam congue, eu consequat nulla egestas. Aliquam erat volutpat. Aliquam erat volutpat. Nunc auctor, metus vestibulum ultricies venenatis, sapien velit aliquet arcu, sed interdum dui nisl sit amet nisl. Praesent vitae tristique eros. Nulla non risus sed quam congue gravida.</p>
+	</div>
+	<div class='box4'>
+		<div class='title-content'>
+			<span class='title'>Hills and Mountains</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Praesent vel interdum quam. Morbi fermentum ac ipsum vitae pellentesque. Sed eu mattis dolor. Nam vulputate venenatis metus sed suscipit. Sed convallis tortor in euismod vestibulum. Ut vel lectus quis ex condimentum laoreet. Nullam scelerisque hendrerit leo a feugiat. Nullam in eros non sapien condimentum iaculis. Pellentesque congue arcu at tempus vestibulum. Ut volutpat euismod sem at ultrices. Curabitur tristique est vitae dignissim efficitur. Vestibulum semper purus sed nibh luctus gravida. Quisque mattis nulla ex, sit amet egestas nisl eleifend sit amet.</p>
+		<p>Praesent condimentum, velit cursus gravida vehicula, mi est vehicula dolor, eu aliquam lectus diam nec metus. Aliquam quis diam convallis, consectetur lectus vel, aliquam orci. Donec vitae neque vitae libero consequat venenatis sit amet sed lacus. Donec ac orci lectus. Sed suscipit, velit id vehicula vulputate, libero tortor vestibulum elit, ornare imperdiet mi nisi vitae tellus. Curabitur fringilla vel arcu eget euismod. Sed ut cursus felis. Vivamus pellentesque, quam nec tincidunt rhoncus, est nibh ullamcorper nulla, eu consectetur nisi nunc sit amet orci. Suspendisse neque risus, euismod a facilisis ac, tincidunt et nulla. In ornare et enim id accumsan. Vestibulum maximus ex et eleifend consectetur. Donec sapien justo, scelerisque eget sem quis, venenatis pellentesque mauris. In vitae arcu eu enim lobortis euismod at et enim.</p>
+	</div>
+	<div class='box5'>
+		<div class='title-content'>
+			<span class='title'>Sailing</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Vivamus sit amet sem in lectus posuere tempor eget vitae velit. In tincidunt turpis accumsan nulla condimentum ullamcorper. Aenean porttitor efficitur sem vel commodo. Nunc non maximus leo. Vestibulum eget libero eu tellus bibendum accumsan. Suspendisse potenti. Vestibulum tempor posuere lectus in sodales. Etiam vel tristique mi, ut mollis sapien. Fusce velit nunc, laoreet eget elementum nec, ultrices eget orci. Morbi libero nunc, accumsan ac odio ut, pretium viverra libero. Ut aliquet vitae ipsum sit amet suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		<p>Cras tempor mauris nec posuere convallis. Nam nibh felis, finibus id molestie id, feugiat eget ipsum. Sed sed aliquet quam. Mauris id massa vel sem aliquet mattis. Cras tempor ante vitae nisi vulputate cursus. Vivamus finibus dapibus dui, nec convallis neque blandit eu. In nec tortor id tortor rutrum finibus. Fusce eget ornare mauris. Nunc hendrerit, eros ac finibus scelerisque, tortor purus venenatis est, in scelerisque ante urna ac mauris. Vivamus fermentum tristique augue nec faucibus.</p>
+	</div>
+	<div class='box6'>
+		<div class='title-content'>
+			<span class='title'>Beach and Sea</span>
+		</div>
+	</div>
+	<div class=content>
+		<h3>Description</h3>
+		<p>Suspendisse porta laoreet augue non placerat. Praesent varius diam tempor sodales bibendum. In consectetur urna ac est elementum, a luctus nisl laoreet. Sed eget felis imperdiet, maximus lorem vitae, cursus odio. Donec venenatis diam non est faucibus consectetur. Cras nec aliquet odio. Nunc quis magna aliquet, rhoncus lectus sit amet, ornare ex. Aliquam eu diam eu lorem malesuada laoreet. Donec ac euismod tortor. Quisque vitae lacinia ante.</p>
+		<p>Praesent eget dui posuere, varius metus ut, tincidunt enim. Curabitur pulvinar orci sit amet arcu ullamcorper, a sodales nunc sodales. Donec convallis lectus sit amet hendrerit eleifend. Aliquam malesuada lectus id nulla dapibus consectetur. Pellentesque sit amet neque nec libero condimentum efficitur nec a augue. Suspendisse lacinia libero dui, sit amet consequat justo sollicitudin ut. Integer maximus ornare arcu in suscipit. Integer quam nunc, scelerisque vitae pretium et, elementum eget tellus. Etiam egestas augue sapien, non placerat sem maximus eu. Donec euismod tempor porta. Maecenas bibendum lorem et risus rutrum scelerisque. Vestibulum et nulla vel neque malesuada finibus efficitur vel velit. Fusce lorem nisi, pulvinar ut urna non, tincidunt semper ligula.</p>
+	</div>
+</body>
+</html>
